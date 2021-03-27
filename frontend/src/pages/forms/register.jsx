@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from "react-router-dom"
 import "./forms.css"
 
-export default function LoginPage() {
+export default function RegisterPage() {
     return (
         <div  className="form">
             <div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
@@ -13,21 +13,21 @@ export default function LoginPage() {
                                 <div class="row px-3 justify-content-center mt-4 mb-5 border-line">
                                     <img src="https://i.imgur.com/CXQmsmF.png" alt="logo" class="image" />
                                     <div className="text_card1">
-                                        <h3>Login to Your Product Hunt Account</h3>
-                                        <p>Join Our Communtiy of friendly folks
+                                        <h2>Sign up on Product Hunt</h2>
+                                        <p>Join Our Community of friendly folks
                                         discovering and sharing the latest products in tech  </p>
 
                                         <p className="card_link_1">
-                                            I want to be part of the community ? <br />
-                                            <Link to="/register" className="btn btn-link">REGISTER HERE</Link>
+                                            I'm already part of the community ? <br />
+                                            <Link to="/" className="btn btn-link">LOGIN HERE</Link>
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-7">
-                            <span>Sign up on Product Hunt</span>
-                            <div class="card2 card border-0 px-4">
+                             <h3 className="text_card2">Sign up</h3>
+                            <div class=" card border-0 px-4">
                                 <div class="row px-3"> <label class="mb-1">
                                     <h6 class="mb-0 text-sm">Email Address</h6>
                                 </label> <input class="mb-4" type="text" name="email" placeholder="Enter a valid email address" /> </div>
